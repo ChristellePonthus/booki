@@ -13,7 +13,6 @@ header {
  }
  
  nav img {
-    height: px;
     align-self: center;
  }
  
@@ -66,29 +65,13 @@ header {
     justify-content: flex-start;
  }
  
- /* Icône de position */
- 
- .search-icone {
-    height: 50px;
-    min-width: 50px;
-    border-radius: 15px 0 0 15px;
- }
- 
- .fa-location-dot {
-    font-size: 20px;
- }
- 
  .search-text {
-    height: 50px;
     width: 100%;
     font-size: 20px;
-    font-weight: bold;
-    border: 2px solid #F2F2F2;
     border-right: none;
  }
 
  ::placeholder {
-   color: #333;
    padding-left: 15px;
  }
  
@@ -201,7 +184,6 @@ header {
 
  .card-heberg {
     width: 90%;
-    height: 200px;
     border-radius: 25px;
     margin-top: 25px;
  }
@@ -235,9 +217,6 @@ header {
  .night-price {
     font-size: 15px;
     margin: 10px 0;
- }
- .star {
-    font-size: 15px;
  }
  
  #plus {
