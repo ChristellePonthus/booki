@@ -301,7 +301,7 @@ a {
    margin-left: 10px;
 }
 .star {
-   margin: 5px 0px 0px 10px;
+   margin: 5px 0 0 10px;
    font-size: 15px;
 }
 
@@ -353,10 +353,6 @@ a {
    font-size: 25px;
 }
 
-.star-pop {
-   margin: 15px 10px;
-}
-
 .col-result {
    width: 400px;
    height: 600px;
@@ -388,7 +384,6 @@ a {
    width: 150px;
    height: 150px;
    background-color: white;
-   position: relative;
    overflow: hidden;
    border-radius: 20px 0 0 20px;
 }
@@ -396,7 +391,6 @@ a {
 .card-image-pop img {
    width: 150px;
    height: 94%;
-   position: absolute;
    border-radius: 20px 0 0 20px;
    margin: 5px;
    object-fit: cover;
@@ -409,6 +403,10 @@ a {
    width: 200px;
    box-sizing: border-box;
    margin: 15px;
+}
+
+.star-pop {
+   margin: 15px 10px;
 }
 
 #activities {
@@ -429,7 +427,8 @@ a {
    height: auto;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: space-around;
+   margin-right: 10px;
 }
 
 .card-activity {

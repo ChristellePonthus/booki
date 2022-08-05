@@ -1,8 +1,10 @@
 @media screen and (max-width: 768px) {
-/* Header */
+
+   /* Header */
 
 header {
    padding: 0;
+   margin-top: 30px;
 }
 
   /* Menu */
@@ -11,7 +13,7 @@ header {
  }
  
  nav img {
-    height: 70px;
+    height: px;
     align-self: center;
  }
  
@@ -29,7 +31,7 @@ header {
  }
  
  nav li a {
-    font-size: 30px;
+    font-size: 20px;
  }
  
  nav li:hover {
@@ -42,23 +44,23 @@ header {
  
  main {
     margin: 0;
+    padding: 0;
  }
  
  /* Zone de recherche */
 
  h1 {
     width: 90%;
-    margin-left: 40px;
-    font-size: 35px;
+    margin-left: 20px;
+    font-size: 20px;
  }
 
  #search-desc {
-    font-size: 30px;
-    margin-left: 40px;
+    font-size: 15px;
+    margin-left: 20px;
  }
  
  #search-bar {
-    height: 100px;
     padding: 30px;
     width: 100%;
     justify-content: flex-start;
@@ -67,19 +69,19 @@ header {
  /* Icône de position */
  
  .search-icone {
-    height: 80px;
-    min-width: 80px;
-    border-radius: 25px 0 0 25px;
+    height: 50px;
+    min-width: 50px;
+    border-radius: 15px 0 0 15px;
  }
  
  .fa-location-dot {
-    font-size: 30px;
+    font-size: 20px;
  }
  
  .search-text {
-    height: 80px;
+    height: 50px;
     width: 100%;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
     border: 2px solid #F2F2F2;
     border-right: none;
@@ -87,7 +89,7 @@ header {
 
  ::placeholder {
    color: #333;
-   padding-left: 20px;
+   padding-left: 15px;
  }
  
  #search-button-text {
@@ -95,23 +97,23 @@ header {
  }
 
  .button-search-icone {
-   height: 76px;
+   height: 46px;
    display: initial;
    background-color: white;
-   border-radius: 0 25px 25px 0;
+   border-radius: 0 15px 15px 0;
    border-top: 2px solid #F2F2F2;
    border-bottom: 2px solid #F2F2F2;
  }
 
  #search-button-icone {
    display: initial;
-   min-width: 80px;
-   height: 80px;
+   min-width: 46px;
+   height: 46px;
    background-color: #0065FC;
    border: none;
-   border-radius: 25px;
+   border-radius: 15px;
    color: white;
-   font-size: 30px;
+   font-size: 20px;
    font-weight: bold;
  }
 
@@ -123,49 +125,54 @@ header {
  /* Zone des filtres de recherche */
  
  #filters {
-    margin-left: 40px;
+    margin-left: 20px;
  }
 
  .filter-title {
-    font-size: 30px;
+    font-size: 15px;
  }
  
  .search-filter {
-    height: 100px;
-    border: 4px solid #D6D6D6;
-    border-left-width: 0;
+    height: 50px;
+    border: 2px solid #D6D6D6;
+    margin-right: 10px;
+    margin-bottom: 15px;
     padding: 0;
  }
  
  .round-filter {
-   width: 100px;
-   height: 100px;
+   width: 50px;
+   height: 50px;
  }
  
  .icone-filter {
-   font-size: 35px;
+   font-size: 20px;
  }
  
  .filter-name {
-   font-size: 30px;
+   font-size: 15px;
+   margin: 0 20px;
  }
 
  
  /* Ligne d'information */
 
  .info-line {
-   margin-left: 40px;
+   margin: 20px;
  }
  
  .round-info {
-   width: 45px;
-   height: 45px;
-   font-size: 25px;
+   text-align: center;
+   font-size: 15px;
    font-weight: bold;
+ }
+
+ .fa-info {
+   width: 25px;
  }
  
  .info-desc {
-    font-size: 25px;
+    font-size: 15px;
  }
  
  /* Résultats de la recherche d'hébergements selon les filtres */
@@ -176,78 +183,66 @@ header {
  }
 
  .title-heberg {
-    font-size: 40px;
+    margin: 10px 20px;
  }
  
  #result-filtres {
    box-sizing: border-box;
    background-color: white;
    width: 100%;
-   margin-top: 40px;
+   margin-top: 20px;
  }
  
  .ligne-result {
-    display: flex;
     align-items: center;
     width: 100%;
-    height: auto;
+    margin: 0;
  }
 
  .card-heberg {
     width: 90%;
-    height: 380px;
-    box-shadow: 0px 0px 5px #999;
-    border-radius: 50px;
-    align-items: stretch;
+    height: 200px;
+    border-radius: 25px;
     margin-top: 25px;
  }
 
  .card-heberg a {
    width: 100%;
  }
-
- .card-heberg:hover {
-   transform: translateY(-3px);
-   box-shadow: 0 4px 17px #0065FC;
-}
  
  .card-image {
    box-sizing: border-box;
    width: 100%;
-   height: 60%;
-   border-radius: 50px;
-   padding: 10px;
+   border-radius: 25px;
+   padding: 5px;
  }
  
  .card-image img {
     width: 100%;
-    height: 100%;
-    border-radius: 45px 45px 0 0;
     margin: 0;
  }
  
  .card-body {
-    margin: 10px 0 0 35px;
+   margin: 5px;
     height: 30%;
  }
  
  .card-desc-filter {
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
  }
 
  .night-price {
-    font-size: 25px;
-    margin: 0;
+    font-size: 15px;
+    margin: 10px 0;
  }
  .star {
-    margin-left: 0;
-    font-size: 25px;
+    font-size: 15px;
  }
  
  #plus {
-    margin-top: 40px;
-    font-size: 30px;
+   margin: 20px;
+    font-size: 20px;
     text-align: left;
  }
  
@@ -257,22 +252,18 @@ header {
    height: auto;
    border-radius: 0;
    order: -1;
+   margin-top: 20px;
  }
  
  .title-heberg-pop {
    box-sizing: border-box;
    width: 100%;
    justify-content: space-around;
-   margin: 45px 0 0 0;
-   font-size: 35px;
+   margin: 20px 0 0 0;
  }
  
  .title-star-pop {
-   font-size: 45px;
- }
- 
- .star-pop {
-   font-size: 25px;
+   font-size: 20px;
  }
  
 .col-result {
@@ -285,17 +276,13 @@ header {
  .card-heberg-pop {
    box-sizing: border-box;
    width: 100%;
-   height: 300px;
-   border-radius: 30px;
-   margin-top: 25px;
+   margin-top: 15px;
  }
  
  .card-image-pop {
     width: 40%;
-    height: 300px;
     display: flex;
     align-items: center;
-    margin-left: 10px;
     border-radius: 30px 0 0 30px;
     margin-left: 0px;
  }
@@ -303,19 +290,24 @@ header {
  .card-image-pop img {
     width: 100%;
     height: 93%;
-    border-radius: 20px 0 0 20px;
-    margin-left: 10px;
  }
  
  .card-body-pop {
     width: 60%;
-    border-radius: 0 50px 50px 0;
-    padding: 40px 40px 30px 40px;
+    margin: 15px 20px;
  }
 
+ .star-pop {
+   margin: 0;
+   font-size: 10px;
+}
+
+#activities {
+   margin-top: 30px;
+}
+
  .title-activity {
-   margin: 45px 0px 0px 40px;
-   font-size: 35px;
+   margin-left: 20px;
  }
  
 .line-act {
@@ -328,141 +320,133 @@ header {
  
 .col-activity {
    box-sizing: border-box;
-   justify-content: space-around;
    width: 90%;
+   margin: 0;
 }
  
 .card-activity {
    box-sizing: border-box;
-   height: 380px;
+   height: 200px;
    width: 100%;
-   border-radius: 50px;
-   margin-top: 50px;
+   margin-top: 20px;
 }
  
 .card-image-act {
    width: 100%;
-   height: 270px;
-   border-radius: 50px 50px 0 0;
+   height: 80%;
 }
  
 .card-image-act img {
    height: 140%;
-   border-radius: 50px 50px 0 0;
 }
  
 .card-body-act {
-   font-size: 30px;
-   width: 90%;
+   font-size: 20px;
+   width: 100%;
+   margin: 0;
+}
+
+h4 {
+   margin: 20px;
 }
 
 .card-act-2-1 {
    box-sizing: border-box;
-   height: 380px;
+   height: 200px;
    width: 100%;
-   border-radius: 50px;
-   margin-top: 50px;
+   margin-top: 20px;
 }
 
 .card-image-act-2-1 {
    width: 100%;
-   height: 270px;
-   border-radius: 50px 50px 0 0;
+   height: 80%;
 }
 
 .card-image-act-2-1 img {
    height: 140%;
-   border-radius: 50px 50px 0 0;
 }
 
 .card-body-act-2-1 {
-   margin: 0 0 0 20px;
-   font-size: 30px;
-   width: 90%;
+   font-size: 20px;
+   width: 100%;
+   margin: 0;
 }
 
 .card-act-2-2 {
    box-sizing: border-box;
-   height: 380px;
+   height: 200px;
    width: 100%;
-   border-radius: 50px;
-   margin-top: 50px;
+   margin-top: 20px;
 }
 
 .card-image-act-2-2 {
    width: 100%;
-   height: 270px;
-   border-radius: 50px 50px 0 0;
+   height: 80%;
 }
 
 .card-image-act-2-2 img {
    height: 140%;
-   border-radius: 50px 50px 0 0;
 }
 
 .card-body-act-2-2 {
-   font-size: 30px;
+   font-size: 20px;
    width: 100%;
+   margin: 0;
 }
 
 .card-act-4-1 {
    box-sizing: border-box;
-   height: 380px;
+   height: 200px;
    width: 100%;
-   border-radius: 50px;
-   margin-top: 50px;
+   margin-top: 20px;
 }
 
 .card-image-act-4-1 {
    width: 100%;
-   height: 270px;
-   border-radius: 50px 50px 0 0;
+   height: 80%;
 }
 
 .card-image-act-4-1 img {
    height: 140%;
-   border-radius: 50px 50px 0 0;
 }
 
 .card-body-act-4-1 {
-   font-size: 30px;
+   font-size: 20px;
    width: 100%;
+   margin: 0;
 }
 
 .card-act-4-2 {
    box-sizing: border-box;
-   height: 380px;
+   height: 200px;
    width: 100%;
-   border-radius: 50px;
-   margin-top: 50px;
+   margin-top: 20px;
 }
 
 .card-image-act-4-2 {
    width: 100%;
-   height: 270px;
-   border-radius: 50px 50px 0 0;
+   height: 80%;
 }
 
 .card-image-act-4-2 img {
    height: 140%;
-   border-radius: 50px 50px 0 0;
 }
 
 .card-body-act-4-2 {
-   font-size: 30px;
+   font-size: 20px;
    width: 100%;
+   margin: 0;
 }
  
  /* Footer */
  
  footer {
    box-sizing: border-box;
-    padding-left: 70px;
-    padding-top: 100px;
-    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 0;
     flex-direction: column;
-    margin-bottom: 0px;
-    margin-top: 100px;
+    margin-top: 50px;
  }
  
  .footer-menu {
@@ -470,11 +454,11 @@ header {
  }
 
  .footer-menu h3 {
-   font-size: 30px;
+   font-size: 25px;
 }
 
 .footer-menu p {
-   font-size: 25px;
+   font-size: 20px;
 }
 
 }
